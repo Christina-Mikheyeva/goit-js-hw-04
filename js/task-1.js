@@ -1,4 +1,4 @@
-//----------------------- First option (my favorite)--------------------------------------
+//----------------------- First option --------------------------------------
 
 function isEnoughCapacity(products, containerSize) {
     let sumProducts = 0;
@@ -24,7 +24,7 @@ console.log(
   isEnoughCapacity({ apples: 18, potatoes: 5, oranges: 2 }, 7)
 ); // false
 
-//----------------------- Second best --------------------------------------
+//----------------------- Second option --------------------------------------
 
 // function isEnoughCapacity(products, containerSize) {
 //     const keys = Object.values(products);
